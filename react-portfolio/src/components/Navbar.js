@@ -1,25 +1,14 @@
 import React from 'react';
 
-
-const styles = {
-  card: {
-    margin: 20,
-    background: '#e8eaf6',
-  },
-  heading: {
-    background: '#D9E0D3',
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: '1.2rem',
-    color: 'white',
-    padding: '0 20px',
-  },
-};
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
-    <div style={styles.card}>
-      <div style={styles.heading}>Home</div>
+    <div className='navbar'>
+      <button type='button' className='navBtn'>About me</button>
+      <button type='button' className='navBtn'>Portfolio</button>
+      <button type='button' className='navBtn'>Contact</button>
+      <button type='button' className='navBtn'>Resume</button>
     </div>
   );
 }

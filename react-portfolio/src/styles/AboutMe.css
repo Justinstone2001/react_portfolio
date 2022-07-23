@@ -1,0 +1,14 @@
+.aboutDiv {
+    border-style: solid;
+    padding: 8px;
+}
+
+.aboutTitle {
+    font-family: garamond;
+    font-size: 40px;
+}
+
+.aboutTxt {
+    font-family: garamond;
+    font-size: 25px;
+}
