@@ -4,18 +4,74 @@
     border-style: solid;
 }
 
-.navBtn {
+#aboutMe {
     height: 40px;
     float: right;
-    margin-left: 30px;
+    margin-left: 50px;
     border: none;
-    font-size: 25px;
     font-family: Garamond, serif;
     background-color: rgb(37, 37, 37);
     color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
 }
 
-.navBtn:hover{
+#aboutMe:hover {
+    color: #7dbca9;
+    cursor: pointer;
+}
+
+#portfolio {
+    height: 40px;
+    float: right;
+    margin-left: 50px;
+    border: none;
+    font-family: Garamond, serif;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+}
+
+#portfolio:hover {
+    color: #7dbca9;
+    cursor: pointer;
+}
+
+#contact {
+    height: 40px;
+    float: right;
+    margin-left: 50px;
+    border: none;
+    font-family: Garamond, serif;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+}
+
+#contact:hover {
+    color: #7dbca9;
+    cursor: pointer;
+}
+
+#resume {
+    height: 40px;
+    float: right;
+    margin-left: 50px;
+    border: none;
+    font-family: Garamond, serif;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+}
+
+#resume:hover {
     color: #7dbca9;
     cursor: pointer;
 }
