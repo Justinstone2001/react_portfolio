@@ -2,6 +2,7 @@
     background-color: rgb(37, 37, 37);
     height: 40px;
     border-style: solid;
+    
 }
 
 #aboutMe {
@@ -51,6 +52,7 @@
     text-decoration: none;
     text-align: center;
     font-size: 28px;
+    margin-right: 50px;
 }
 
 #contact:hover {

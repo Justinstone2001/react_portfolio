@@ -12,3 +12,17 @@
     font-family: garamond;
     font-size: 25px;
 }
+
+.messageBox {
+    height: 200px;
+    width: 400px;
+}
+
+.submitBtn {
+    font-family: garamond;
+    font-size: 18px;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+}

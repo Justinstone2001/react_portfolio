@@ -1,16 +1,32 @@
 import React from 'react';
 
-import '../../styles/AboutMe.css';
+import '../../styles/Content.css';
 
 export default function Resume() {
     return (
         <> 
-        <div className='resumeDiv'>
-            <h2 className='resumeTitle'>Resume: </h2>
-            <p className='resumeTxt'> Welcome to my portfolio! I am a current senior at Davidson college studying computer science and Hispanic studies. 
-            I have worked in computer science for 2 years of college courses and am now learning full stack web development 
-            through the UNCC bootcamp. I plan to go to graduate school to study cybersecurity and continue my computer science education.
-             </p>
+        <div className='aboutDiv'>
+            <h2 className='aboutTitle'>Resume: </h2>
+            <h3 className='aboutTxt'>Front-end Proficiencies</h3>
+            <ul className='aboutTxt'>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Responsive Design</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+            </ul>
+            <h3 className='aboutTxt'>Back-end Proficiencies</h3>
+            <ul className='aboutTxt'>
+                <li>APIs</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL, Sequelize</li>
+                <li>MongoDB, Mongoose</li>
+                <li>RESTt</li>
+                <li>GraphQL</li>
+            </ul>
         </div>
         </>
     );
