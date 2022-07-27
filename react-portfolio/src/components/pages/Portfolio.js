@@ -5,7 +5,7 @@ import '../../styles/Content.css';
 export default function Portfolio() {
     return (
         <> 
-        <div className='aboutDiv'>
+        <div className='portfolioDiv'>
             <h2 className='aboutTitle'>Portfolio: </h2>
             <form>
             <button type="submit" id="SPA"

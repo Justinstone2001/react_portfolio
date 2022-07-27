@@ -5,6 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Header from './Header';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('aboutMe');
@@ -16,6 +17,7 @@ export default function PortfolioContainer() {
             <div>
                 <Header/>
                 <AboutMe/>
+                <Footer/>
             </div>
           );
     }
@@ -24,6 +26,7 @@ export default function PortfolioContainer() {
             <div>
                 <Header/>
                 <Portfolio/>
+                <Footer/>
             </div>
           );
     }
@@ -32,6 +35,7 @@ export default function PortfolioContainer() {
             <div>
                 <Header/>
                 <Contact/>
+                <Footer/>
             </div>
           );
     }
@@ -40,6 +44,7 @@ export default function PortfolioContainer() {
             <div>
                 <Header/>
                 <Resume/>
+                <Footer/>
             </div>
         )
     }
