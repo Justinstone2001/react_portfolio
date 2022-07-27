@@ -26,3 +26,92 @@
 .submitBtn:hover {
     cursor: pointer;
 }
+
+#SPA {
+    height: 200px;
+    width: 400px;
+    font-family: Optima;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 0 15px rgb(50, 136, 186);
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+
+#SPA:hover {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg');
+    background-position: center;
+    background-size: 300px;
+    opacity: .7;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Optima;
+}
+
+#CSC {
+    height: 200px;
+    width: 400px;
+    font-family: Optima;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 0 15px rgb(50, 136, 186);
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+#CSC:hover {
+    background-image: url('https://assets-global.website-files.com/60e615980cab093e6f2db3c3/60f1c685e1930d349901bcbc_GettyImages-1172685336.jpeg');
+    background-position: center;
+    background-size: 360px;
+    opacity: .7;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Optima;
+}
+
+#PROJ1 {
+    height: 200px;
+    width: 400px;
+    font-family: Optima;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 0 15px rgb(50, 136, 186);
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+#PROJ1:hover {
+    background-image: url('https://cdn.wallpapersafari.com/46/98/PMeBon.png');
+    background-position: center;
+    background-size: 360px;
+    opacity: .7;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Optima;
+}
+
+#PROJ2 {
+    height: 200px;
+    width: 400px;
+    font-family: Optima;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 0 15px rgb(50, 136, 186);
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+#PROJ2:hover {
+    background-image: url('https://images.pexels.com/photos/1578750/pexels-photo-1578750.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-size: 360px;
+    opacity: .7;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Optima;
+}
